@@ -1,0 +1,12 @@
+    
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 19770507
+    url: jdbc:mysql://127.0.0.1/SpringCloud_Sell?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+  redis:
+    host: 127.0.0.1
+    port: 6379
